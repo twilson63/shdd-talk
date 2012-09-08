@@ -6,6 +6,11 @@ div '.reveal', ->
       p 'SHDD'
       small 'Sept 2012'
     section ->
+      h1 'Rails and NodeJs'
+      p 'SHDD'
+      small 'Sept 2012'
+
+    section ->
       section ->
         img src: 'http://supermanlogo.jpg.to'
         h2 'Rails'
@@ -18,15 +23,18 @@ div '.reveal', ->
           li 'Lasers'
       section ->
         h2 'Rails'
+        h3 'Super Powers'
         ul ->
           li 'Convention over Configuration'
           li 'DRY: Dont Repeat Yourself'
           li 'MVC: Model-View-Controller'
       section ->
+        h1 'Easy to'
         h2 'Install'
         h3 -> a href: 'http://railsinstaller.org', 'http://railsinstaller.org'
+        h1 'Now'
       section ->
-        h2 'Demo'
+        h2 'Hello World'
         pre -> code contenteditable: true, '''
         rails new foo 
         cd foo
@@ -45,12 +53,12 @@ div '.reveal', ->
         img src: 'http://supermanlogo.jpg.to'
         h2 'GTD: Get Things Done!'
       section ->
-        img src: 'http://charlestoncodes.jpg.to'
+        img src: 'http://charlestoncodes.com/images/codecamp_logo.png'
         h2 -> a href: 'http://charlestoncodes.com/classes/rails-101.html', 'Rails 101'
 
     section ->
       section ->
-        img src: 'http://batmanlogo.jpg.to'
+        img src: 'http://batmanlogo.jpg.to', style: 'height: 40%'
         h2 'NodeJs'
         p 'What is batman known for?'
       section ->
